@@ -1,125 +1,139 @@
-2021-06-11 04:13:35,655 INFO [org.geoserver] - GeoServer configuration lock is enabled
-2021-06-11 04:13:36,195 INFO [org.geoserver] - Loading catalog...
-2021-06-11 04:13:36,551 INFO [org.geoserver] - Loaded style 'capitals'
-2021-06-11 04:13:36,556 INFO [org.geoserver] - Loaded style 'line'
-2021-06-11 04:13:36,562 INFO [org.geoserver] - Loaded style 'pophatch'
-2021-06-11 04:13:36,567 INFO [org.geoserver] - Loaded style 'grass'
-2021-06-11 04:13:36,572 INFO [org.geoserver] - Loaded style 'restricted'
-2021-06-11 04:13:36,581 INFO [org.geoserver] - Loaded style 'green'
-2021-06-11 04:13:36,592 INFO [org.geoserver] - Loaded style 'cite_lakes'
-2021-06-11 04:13:36,603 INFO [org.geoserver] - Loaded style 'rain'
-2021-06-11 04:13:36,607 INFO [org.geoserver] - Loaded style 'population'
-2021-06-11 04:13:36,620 INFO [org.geoserver] - Loaded style 'dem'
-2021-06-11 04:13:36,627 INFO [org.geoserver] - Loaded style 'raster'
-2021-06-11 04:13:36,640 INFO [org.geoserver] - Loaded style 'poly_landmarks'
-2021-06-11 04:13:36,652 INFO [org.geoserver] - Loaded style 'polygon'
-2021-06-11 04:13:36,666 INFO [org.geoserver] - Loaded style 'giant_polygon'
-2021-06-11 04:13:36,678 INFO [org.geoserver] - Loaded style 'simple_streams'
-2021-06-11 04:13:36,705 INFO [org.geoserver] - Loaded style 'burg'
-2021-06-11 04:13:36,713 INFO [org.geoserver] - Loaded style 'generic'
-2021-06-11 04:13:36,725 INFO [org.geoserver] - Loaded style 'poi'
-2021-06-11 04:13:36,731 INFO [org.geoserver] - Loaded style 'tiger_roads'
-2021-06-11 04:13:36,738 INFO [org.geoserver] - Loaded style 'simple_roads'
-2021-06-11 04:13:36,741 INFO [org.geoserver] - Loaded style 'point'
-2021-06-11 04:13:36,768 INFO [org.geoserver] - Loaded default workspace cite
-2021-06-11 04:13:36,869 INFO [org.geoserver] - Loaded workspace 'tiger'
-2021-06-11 04:13:36,907 INFO [org.geoserver] - Loaded workspace 'sf'
-2021-06-11 04:13:36,924 INFO [org.geoserver] - Loaded workspace 'sde'
-2021-06-11 04:13:36,945 INFO [org.geoserver] - Loaded workspace 'nurc'
-2021-06-11 04:13:36,965 INFO [org.geoserver] - Loaded workspace 'topp'
-2021-06-11 04:13:36,985 INFO [org.geoserver] - Loaded workspace 'cite'
-2021-06-11 04:13:37,009 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
-2021-06-11 04:13:41,242 INFO [org.geoserver] - Loaded data store 'nyc', enabled
-2021-06-11 04:13:44,529 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
-2021-06-11 04:13:44,568 INFO [org.geoserver] - Loaded layer 'giant_polygon'
-2021-06-11 04:13:44,588 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
-2021-06-11 04:13:44,593 INFO [org.geoserver] - Loaded layer 'tiger_roads'
-2021-06-11 04:13:44,614 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
-2021-06-11 04:13:44,617 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
-2021-06-11 04:13:44,630 INFO [org.geoserver] - Loaded feature type 'poi', enabled
-2021-06-11 04:13:44,639 INFO [org.geoserver] - Loaded layer 'poi'
-2021-06-11 04:13:44,672 INFO [org.geoserver] - Loaded data store 'sf', enabled
-2021-06-11 04:13:45,618 INFO [org.geoserver] - Loaded feature type 'streams', enabled
-2021-06-11 04:13:45,631 INFO [org.geoserver] - Loaded layer 'streams'
-2021-06-11 04:13:45,654 INFO [org.geoserver] - Loaded feature type 'roads', enabled
-2021-06-11 04:13:45,661 INFO [org.geoserver] - Loaded layer 'roads'
-2021-06-11 04:13:45,678 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
-2021-06-11 04:13:45,686 INFO [org.geoserver] - Loaded layer 'restricted'
-2021-06-11 04:13:45,704 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
-2021-06-11 04:13:45,719 INFO [org.geoserver] - Loaded layer 'bugsites'
-2021-06-11 04:13:45,758 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
-2021-06-11 04:13:45,766 INFO [org.geoserver] - Loaded layer 'archsites'
-2021-06-11 04:13:45,804 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
-2021-06-11 04:13:46,083 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
-2021-06-11 04:13:46,091 INFO [org.geoserver] - Loaded layer 'sfdem'
-2021-06-11 04:13:46,132 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
-2021-06-11 04:13:46,161 INFO [org.geoserver] - Loaded feature type 'states', enabled
-2021-06-11 04:13:46,170 INFO [org.geoserver] - Loaded layer 'states'
-2021-06-11 04:13:46,197 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
-2021-06-11 04:13:46,243 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
-2021-06-11 04:13:46,246 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
-2021-06-11 04:13:46,260 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
-2021-06-11 04:13:46,270 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
-2021-06-11 04:13:46,263 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
-2021-06-11 04:13:46,269 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
-2021-06-11 04:13:46,285 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
-2021-06-11 04:13:46,294 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
-2021-06-11 04:13:46,311 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
-2021-06-11 04:13:46,348 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
-2021-06-11 04:13:46,371 INFO [org.geoserver] - Loaded layer 'Img_Sample'
-2021-06-11 04:13:46,380 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
-2021-06-11 04:13:46,399 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
-2021-06-11 04:13:46,403 INFO [org.geoserver] - Loaded layer 'mosaic'
-2021-06-11 04:13:46,412 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
-2021-06-11 04:13:46,470 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
-2021-06-11 04:13:46,475 INFO [org.geoserver] - Loaded layer 'Pk50095'
-2021-06-11 04:13:46,484 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
-2021-06-11 04:13:46,501 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
-2021-06-11 04:13:46,512 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
-2021-06-11 04:13:46,559 INFO [org.geoserver] - Loaded layer group 'spearfish'
-2021-06-11 04:13:46,575 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
-2021-06-11 04:13:46,581 INFO [org.geoserver] - Loaded layer group 'tasmania'
-2021-06-11 04:13:46,589 INFO [org.geoserver] - Read catalog in 10.41 s
-2021-06-11 04:13:46,883 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-33584f67:179f946a402:-8000', enabled
-2021-06-11 04:13:46,911 INFO [org.geoserver] - Loaded service 'wcs', enabled
-2021-06-11 04:13:46,958 INFO [org.geoserver] - Loaded service 'wfs', enabled
-2021-06-11 04:13:47,027 INFO [org.geoserver] - Loaded service 'wms', enabled
-2021-06-11 04:13:47,184 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/geoserver/data_dir/gwc'.
-2021-06-11 04:13:47,553 WARN [config.GeoserverXMLResourceProvider] - Found no configuration file in config directory, will create one at 'gwc/geowebcache.xml' from template jar:file:/geoserver/webapps/geoserver/WEB-INF/lib/gwc-core-1.19.1.jar!/geowebcache_empty.xml
-2021-06-11 04:13:47,574 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
-2021-06-11 04:13:47,580 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
-2021-06-11 04:13:47,735 WARN [config.XMLConfiguration] - ********************************************************************************
-2021-06-11 04:13:47,736 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
-2021-06-11 04:13:47,737 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
-2021-06-11 04:13:47,738 WARN [config.XMLConfiguration] - ********************************************************************************
-2021-06-11 04:13:47,854 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
-2021-06-11 04:13:47,856 INFO [config.XMLConfiguration] - Initializing layers from gwc
-2021-06-11 04:13:47,956 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
-2021-06-11 04:13:47,958 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
-2021-06-11 04:13:47,959 INFO [gwc.layer] - Loading tile layers from gwc-layers
-2021-06-11 04:13:47,972 INFO [gwc.layer] - Loaded 0 tile layers in 10.65 ms
-2021-06-11 04:13:48,002 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
-2021-06-11 04:13:48,024 INFO [storage.DefaultStorageFinder] - **********************************************************************************************************************
-2021-06-11 04:13:48,029 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /geoserver/data_dir, using it as the default prefix. ***
-2021-06-11 04:13:48,031 INFO [storage.DefaultStorageFinder] - **********************************************************************************************************************
-2021-06-11 04:13:48,171 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
-2021-06-11 04:13:50,483 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/geoserver/data_dir/gwc'.
-2021-06-11 04:13:50,508 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/geoserver/data_dir/gwc'.
-2021-06-11 04:13:50,516 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
-2021-06-11 04:13:50,536 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
-2021-06-11 04:13:50,543 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
-2021-06-11 04:13:50,548 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
-2021-06-11 04:13:50,551 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
-2021-06-11 04:13:50,623 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
-2021-06-11 04:13:51,039 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
-2021-06-11 04:13:51,077 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
-2021-06-11 04:13:51,087 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
-2021-06-11 04:13:51,524 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
-2021-06-11 04:13:51,525 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
-2021-06-11 04:13:52,903 INFO [platform.resource] - Notifying ENTRY_CREATE change on /geoserver/data_dir/gwc-layers. Created: 22, removed: 0, modified: 0
-2021-06-11 04:13:55,712 INFO [geoserver.config] - Initiated CatalogTimeStampUpdater
-2021-06-11 04:13:56,803 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
-2021-06-11 04:14:03,397 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
-2021-06-11 04:14:03,402 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
-2021-06-11 04:14:04,633 INFO [geoserver.security] - Start reloading user/groups for service named default
-2021-06-11 04:14:04,661 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2021-11-12 09:39:25,911 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2021-11-12 09:39:26,006 INFO [org.geoserver] - Loading catalog...
+2021-11-12 09:39:26,124 INFO [org.geoserver] - Loaded style 'pophatch'
+2021-11-12 09:39:26,125 INFO [org.geoserver] - Loaded style 'simple_roads'
+2021-11-12 09:39:26,127 INFO [org.geoserver] - Loaded style 'burg'
+2021-11-12 09:39:26,128 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2021-11-12 09:39:26,129 INFO [org.geoserver] - Loaded style 'polygon'
+2021-11-12 09:39:26,130 INFO [org.geoserver] - Loaded style 'poi'
+2021-11-12 09:39:26,131 INFO [org.geoserver] - Loaded style 'raster'
+2021-11-12 09:39:26,132 INFO [org.geoserver] - Loaded style 'population'
+2021-11-12 09:39:26,134 INFO [org.geoserver] - Loaded style 'restricted'
+2021-11-12 09:39:26,135 INFO [org.geoserver] - Loaded style 'simple_streams'
+2021-11-12 09:39:26,136 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2021-11-12 09:39:26,138 INFO [org.geoserver] - Loaded style 'point'
+2021-11-12 09:39:26,140 INFO [org.geoserver] - Loaded style 'grass'
+2021-11-12 09:39:26,141 INFO [org.geoserver] - Loaded style 'dem'
+2021-11-12 09:39:26,143 INFO [org.geoserver] - Loaded style 'green'
+2021-11-12 09:39:26,146 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2021-11-12 09:39:26,147 INFO [org.geoserver] - Loaded style 'capitals'
+2021-11-12 09:39:26,149 INFO [org.geoserver] - Loaded style 'generic'
+2021-11-12 09:39:26,150 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2021-11-12 09:39:26,151 INFO [org.geoserver] - Loaded style 'line'
+2021-11-12 09:39:26,152 INFO [org.geoserver] - Loaded style 'rain'
+2021-11-12 09:39:26,153 INFO [org.geoserver] - Loaded default workspace cite
+2021-11-12 09:39:26,175 INFO [org.geoserver] - Loaded workspace 'cite'
+2021-11-12 09:39:26,185 INFO [org.geoserver] - Loaded workspace 'nurc'
+2021-11-12 09:39:26,189 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2021-11-12 09:39:26,191 INFO [org.geoserver] - Loaded workspace 'sde'
+2021-11-12 09:39:26,193 INFO [org.geoserver] - Loaded workspace 'sf'
+2021-11-12 09:39:26,195 INFO [org.geoserver] - Loaded workspace 'tiger'
+2021-11-12 09:39:26,197 INFO [org.geoserver] - Loaded workspace 'topp'
+2021-11-12 09:39:26,682 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2021-11-12 09:39:28,392 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2021-11-12 09:39:28,412 INFO [org.geoserver] - Loaded layer 'mosaic'
+2021-11-12 09:39:28,416 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2021-11-12 09:39:28,427 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2021-11-12 09:39:28,434 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2021-11-12 09:39:28,437 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2021-11-12 09:39:28,725 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2021-11-12 09:39:28,728 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2021-11-12 09:39:28,731 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2021-11-12 09:39:28,737 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2021-11-12 09:39:28,741 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2021-11-12 09:39:29,018 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2021-11-12 09:39:29,036 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2021-11-12 09:39:29,038 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2021-11-12 09:39:29,042 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2021-11-12 09:39:29,045 INFO [org.geoserver] - Loaded layer 'poi'
+2021-11-12 09:39:29,050 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2021-11-12 09:39:29,052 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2021-11-12 09:39:29,065 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2021-11-12 09:39:29,069 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2021-11-12 09:39:29,082 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2021-11-12 09:39:29,185 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2021-11-12 09:39:29,192 INFO [org.geoserver] - Loaded layer 'restricted'
+2021-11-12 09:39:29,218 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2021-11-12 09:39:29,230 INFO [org.geoserver] - Loaded layer 'bugsites'
+2021-11-12 09:39:29,238 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2021-11-12 09:39:29,240 INFO [org.geoserver] - Loaded layer 'streams'
+2021-11-12 09:39:29,253 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2021-11-12 09:39:29,254 INFO [org.geoserver] - Loaded layer 'roads'
+2021-11-12 09:39:29,262 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2021-11-12 09:39:29,264 INFO [org.geoserver] - Loaded layer 'archsites'
+2021-11-12 09:39:29,266 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2021-11-12 09:39:29,283 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2021-11-12 09:39:29,285 INFO [org.geoserver] - Loaded layer 'sfdem'
+2021-11-12 09:39:29,298 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2021-11-12 09:39:29,305 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2021-11-12 09:39:29,306 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2021-11-12 09:39:29,317 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2021-11-12 09:39:29,324 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2021-11-12 09:39:29,332 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2021-11-12 09:39:29,333 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2021-11-12 09:39:29,337 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2021-11-12 09:39:29,339 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2021-11-12 09:39:29,343 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2021-11-12 09:39:29,352 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2021-11-12 09:39:29,354 INFO [org.geoserver] - Loaded layer 'states'
+2021-11-12 09:39:29,376 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2021-11-12 09:39:29,379 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2021-11-12 09:39:29,383 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2021-11-12 09:39:29,388 INFO [org.geoserver] - Read catalog in 3.379 s
+2021-11-12 09:39:29,545 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--35149b:17d11ccba87:-8000', enabled
+2021-11-12 09:39:29,556 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2021-11-12 09:39:29,577 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2021-11-12 09:39:29,605 INFO [org.geoserver] - Loaded service 'wms', enabled
+2021-11-12 09:39:29,647 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/Users/zhang/Desktop/geoserver-2.20.0-bin/data_dir/gwc'.
+2021-11-12 09:39:29,836 WARN [config.GeoserverXMLResourceProvider] - Found no configuration file in config directory, will create one at 'gwc/geowebcache.xml' from template jar:file:/Users/zhang/Desktop/geoserver-2.20.0-bin/webapps/geoserver/WEB-INF/lib/gwc-core-1.20.0.jar!/geowebcache_empty.xml
+2021-11-12 09:39:29,841 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-11-12 09:39:29,841 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-11-12 09:39:29,961 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-11-12 09:39:29,962 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2021-11-12 09:39:29,962 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2021-11-12 09:39:29,963 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-11-12 09:39:30,073 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2021-11-12 09:39:30,075 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2021-11-12 09:39:30,151 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2021-11-12 09:39:30,151 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2021-11-12 09:39:30,151 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2021-11-12 09:39:30,157 INFO [gwc.layer] - Loaded 0 tile layers in 5.554 ms
+2021-11-12 09:39:30,172 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2021-11-12 09:39:30,186 INFO [storage.DefaultStorageFinder] - *****************************************************************************************************************************************************
+2021-11-12 09:39:30,186 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /Users/zhang/Desktop/geoserver-2.20.0-bin/data_dir, using it as the default prefix. ***
+2021-11-12 09:39:30,186 INFO [storage.DefaultStorageFinder] - *****************************************************************************************************************************************************
+2021-11-12 09:39:30,315 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2021-11-12 09:39:31,629 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/Users/zhang/Desktop/geoserver-2.20.0-bin/data_dir/gwc'.
+2021-11-12 09:39:31,645 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/Users/zhang/Desktop/geoserver-2.20.0-bin/data_dir/gwc'.
+2021-11-12 09:39:31,650 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-11-12 09:39:31,662 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-11-12 09:39:31,663 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2021-11-12 09:39:31,664 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2021-11-12 09:39:31,669 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+2021-11-12 09:39:31,719 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2021-11-12 09:39:31,952 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2021-11-12 09:39:31,973 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2021-11-12 09:39:31,976 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2021-11-12 09:39:32,131 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2021-11-12 09:39:32,132 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2021-11-12 09:39:34,262 INFO [geoserver.config] - Initiated CatalogTimeStampUpdater
+2021-11-12 09:39:34,763 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2021-11-12 09:39:35,098 INFO [platform.resource] - Notifying ENTRY_CREATE change on /Users/zhang/Desktop/geoserver-2.20.0-bin/data_dir/gwc-layers. Created: 22, removed: 0, modified: 0
+2021-11-12 09:39:38,443 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2021-11-12 09:39:38,443 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2021-11-12 09:39:39,076 INFO [geoserver.security] - Start reloading user/groups for service named default
+2021-11-12 09:39:39,085 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2021-11-12 09:40:06,639 INFO [geoserver.security] - Strong cryptography is available
+2021-11-12 09:51:22,723 INFO [georss.GeoRSSPoller] - destroy() invoked
+2021-11-12 09:51:22,724 INFO [geowebcache.GeoWebCacheDispatcher] - GeoWebCacheDispatcher.destroy() was invoked, shutting down.
+2021-11-12 09:51:22,726 INFO [diskquota.DiskQuotaMonitor] - Disk quota monitor shutting down...
+2021-11-12 09:51:22,726 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota usage monitor...
+2021-11-12 09:51:22,727 INFO [diskquota.QuotaUpdatesMonitor] - Shutting down quota usage monitor...
+2021-11-12 09:51:22,731 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota statistics gathering monitor...
+2021-11-12 09:51:22,731 INFO [diskquota.QueuedQuotaUpdatesConsumer] - Shutting down quota update background task due to InterruptedException
+2021-11-12 09:51:22,737 INFO [diskquota.QueuedUsageStatsConsumer] - Shutting down quota update background task due to interrupted exception
+2021-11-12 09:51:22,738 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
+2021-11-12 09:51:22,738 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
+2021-11-12 09:51:22,739 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
+2021-11-12 09:51:22,750 WARN [support.DisposableBeanAdapter] - Destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7b88c078[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@7863627] rejected from java.util.concurrent.ThreadPoolExecutor@e132921[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+2021-11-12 09:51:22,752 WARN [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'geoWebCacheExtensions': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
